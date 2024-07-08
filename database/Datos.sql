@@ -1,0 +1,91 @@
+
+
+
+INSERT INTO Tiempos_Estandar (cant_horas) VALUES
+(0.96),
+(0.24),
+(0.96),
+(0.16),
+(0.16),
+(0.32),
+(2.7),
+(4.2),
+(0.48),
+(0.16),
+(0.16),
+(0.16),
+(0.16),
+(1.28),
+(0.36),
+(2.4),
+(0.24),
+(0.16),
+(0.16),
+(0.76),
+(12.96),
+(2.88),
+(0.48),
+(0.48),
+(2.4),
+(0.66),
+(2.16),
+(0.96),
+(0.36),
+(0.46),
+(2.4),
+(1.57);
+
+INSERT INTO Actividades (descripcion, Id_Estandar) VALUES
+('Búsqueda del tema', 1),
+('Contenido + tablas', 2),
+('Realidad del problema', 3),
+('Formulación del problema', 4),
+('Objetivos', 5),
+('Justificación', 6),
+('Antecedentes', 7),
+('Bases teóricas', 8),
+('Marco Conceptual', 9),
+('Hipótesis', 10),
+('Enfoque', 11),
+('Tipo de investigación', 12),
+('Diseño de investigación', 13),
+('Matriz de operacionalización', 14),
+('Población y muestra', 15),
+('Técnicas e instrumentos', 16),
+('Procedimiento', 17),
+('Método de análisis de datos', 18),
+('Aspectos éticos', 19),
+('Cronograma y presupuesto', 20),
+('Resultados', 21),
+('Discusión', 22),
+('Conclusiones', 23),
+('Recomendaciones', 24),
+('Diapositivas', 25),
+('Asesoría/Explicación', 26),
+('Análisis de casos arquitectónicos', 27),
+('Fichas de análisis de casos', 28),
+('Lineamientos del diseño', 29),
+('Justificación', 30),
+('Diapositivas', 31),
+('Parafraseo', 32);
+
+INSERT INTO Instituciones (NombreInst, TipoInst) VALUES
+('UNT', 'Universidad'),
+('UCV', 'Universidad'),
+('UPAO', 'Universidad'),
+('SENATI', 'Instituto'),
+('CIBERTEC', 'Instituto');
+
+INSERT INTO Clientes (NombreCli, ApellidoCli, celular, Dni, correo) VALUES
+('David Edinson', 'Vigo Rodríguez', '923420459', '70937492', 'devr@gmail.com'),
+('María Fernanda', 'Gómez Sánchez', '987654321', '87654321', 'mariafernanda@gmail.com'),
+('Juan Carlos', 'Pérez Ramírez', '987123456', '45678912', 'juancarlos@gmail.com'),
+('Lucía Alejandra', 'Hernández Torres', '954987321', '98765432', 'lucia.alejandra@gmail.com'),
+('Miguel Ángel', 'Gutiérrez Jiménez', '921654987', '23456789', 'miguelangel@gmail.com');
+
+INSERT INTO Asesores (Nombre, Apellido, Dni, Email, celular, Direccion, Fecha_Nac, CuentaBancaria, CuentaInterbancaria) VALUES
+('Juan', 'Pérez Gómez', '12345678', 'juan.perez@example.com', '987654321', 'Calle Principal 123', '1985-06-15', '1234567890', '0987654321'),
+('María', 'Sánchez Ramírez', '87654321', 'maria.sanchez@example.com', '456789123', 'Avenida Central 456', '1992-11-20', '9876543210', '1234567890'),
+('Carlos', 'Hernández Torres', '45678912', 'carlos.hernandez@example.com', '321654987', 'Calle Secundaria 789', '1978-03-08', '5678901234', '9012345678'),
+('Sofía', 'Gutiérrez Jiménez', '23456789', 'sofia.gutierrez@example.com', '789123456', 'Avenida Principal 159', '1990-08-25', '4321098765', '8765432109'),
+('Alejandro', 'Rodríguez Vega', '98765432', 'alejandro.rodriguez@example.com', '159753852', 'Calle Terciaria 357', '1983-12-01', '7890123456', '6543210987');
